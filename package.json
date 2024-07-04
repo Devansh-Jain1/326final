@@ -1,0 +1,27 @@
+{
+    "name": "my-web-application",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "concurrently \"http-server src/frontend -p 8080 -c-1 -o -s\" \"node src/backend/server.js\""
+    },
+    "keywords": [],
+    "author": {
+      "name": "Devansh Jain",
+      "email": "dkjain@umass.edu"
+    },
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "bcrypt": "^5.1.1",
+      "express": "^4.19.2",
+      "glob": "^10.4.2",
+      "http-server": "^14.1.1",
+      "jsonwebtoken": "^9.0.2",
+      "mongoose": "^8.4.4",
+      "multer": "^1.4.5-lts.1",
+      "pouchdb": "^9.0.0"
+    }
+  }
+  
